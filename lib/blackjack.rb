@@ -11,8 +11,8 @@ def display_card_total(cardtotal)
 end
 
 def prompt_user
-  puts 
-  gets.chomp
+  puts "Type 'h' to hit or 's' to stay"
+  input = gets.chomp
 end
 
 def get_user_input
