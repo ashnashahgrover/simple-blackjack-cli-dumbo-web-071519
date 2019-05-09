@@ -56,7 +56,7 @@ def runner
   card_total = initial_round
   while card_total < 21
     hit
-    card_total+=deal_card
+    card_total += deal_card
   end
   end_game
 end
