@@ -38,10 +38,13 @@ def hit?(card_total)
     break
   else 
     invalid_command
+    hit?(card_total)
+  end
+  return card_total
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Please enter a valid command". 
 end
 
 #####################################################
